@@ -45,7 +45,7 @@ const Header = () => {
         className="font-medium md:text-2xl mr-auto cursor-pointer"
         onClick={() => navigate("/")}
       >
-        Uniworld
+        Myda Store
       </div>
 
       <div className="text-slate-800 hidden md:block">
