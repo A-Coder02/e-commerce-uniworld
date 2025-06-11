@@ -45,7 +45,7 @@ const Header = () => {
         className="font-medium md:text-2xl mr-auto cursor-pointer"
         onClick={() => navigate("/")}
       >
-        MobiWiki
+        Uniworld
       </div>
 
       <div className="text-slate-800 hidden md:block">
@@ -79,9 +79,7 @@ const Header = () => {
         </Button>
       )}
 
-      <Button size="sm" onClick={() => navigate("/orders")}>
-        Orders
-      </Button>
+   
 
       <div className="hidden md:block">
         {location.pathname === "/portal" && (
